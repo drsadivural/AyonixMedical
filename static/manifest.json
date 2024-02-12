@@ -1,6 +1,6 @@
 {
-	"name": "Ollama Web UI",
-	"short_name": "Ollama",
+	"name": "AyonixMedical",
+	"short_name": "Ayonix",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#343541",
