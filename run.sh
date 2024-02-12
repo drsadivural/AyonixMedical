@@ -1,7 +1,7 @@
 #!/bin/bash
 
-image_name="ollama-webui"
-container_name="ollama-webui"
+image_name="AyonixMedical"
+container_name="AyonixMedical"
 host_port=3000
 container_port=8080
 
