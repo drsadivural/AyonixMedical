@@ -76,20 +76,20 @@ DEFAULT_PROMPT_SUGGESTIONS = os.environ.get(
     "DEFAULT_PROMPT_SUGGESTIONS",
     [
         {
-            "title": ["Help me study", "vocabulary for a college entrance exam"],
-            "content": "Help me study vocabulary: write a sentence for me to fill in the blank, and I'll try to pick the correct option.",
+            "title": ["Hypothyroidism", "Condition of low thyroid hormones"],
+            "content": "Hashimoto's Thyroiditis is a big reason?",
         },
         {
-            "title": ["Give me ideas", "for what to do with my kids' art"],
-            "content": "What are 5 creative things I could do with my kids' art? I don't want to throw them away, but it's also so much clutter.",
+            "title": ["Hypertension", "Most critical approaches"],
+            "content": "What are 5 things to suggest for my patient",
         },
         {
-            "title": ["Tell me a fun fact", "about the Roman Empire"],
-            "content": "Tell me a random fun fact about the Roman Empire",
+            "title": ["Hyperlipidemia", "High cholesterol and triglycerides"],
+            "content": "Tell me most advanced theraphy methods for hyperlipidemia",
         },
         {
-            "title": ["Show me a code snippet", "of a website's sticky header"],
-            "content": "Show me a code snippet of a website's sticky header in CSS and JavaScript.",
+            "title": ["Osteoarthritis", "Degenerative joint disease"],
+            "content": "What theraphy will slow down the progressive osteoarthritis?",
         },
     ],
 )
