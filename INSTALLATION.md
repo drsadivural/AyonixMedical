@@ -1,4 +1,4 @@
-### Installing Both Ollama and Ollama Web UI Using Kustomize
+### Installing Both AyonixMedical and Medical Web UI Using Kustomize
 
 For cpu-only pod
 
@@ -12,7 +12,7 @@ For gpu-enabled pod
 kubectl apply -k ./kubernetes/manifest
 ```
 
-### Installing Both Ollama and Ollama Web UI Using Helm
+### Installing Both AyonixMedical and Medical Web UI Using Helm
 
 Package Helm file first
 
