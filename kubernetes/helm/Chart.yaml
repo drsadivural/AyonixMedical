@@ -2,4 +2,4 @@ apiVersion: v2
 name: ollama-webui
 description: "Ayonix Medical diagnostics for healthcare professionals"
 version: 1.0.0
-icon: https://raw.githubusercontent.com/ollama-webui/ollama-webui/main/static/favicon.png
+icon: https://raw.githubusercontent.com/AyonixMedical/AyonixMedical/main/static/favicon.png
