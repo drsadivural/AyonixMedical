@@ -126,14 +126,14 @@ async def proxy(path: str, request: Request, user=Depends(get_current_user)):
     try:
         return await run_in_threadpool(get_request)
     except Exception as e:
-        error_detail = "Ollama WebUI: Server Connection Error"
+        error_detail = "Ayonix AI-MED Web I/F: Server Connection Error"
         if r is not None:
             try:
                 res = r.json()
                 if "error" in res:
-                    error_detail = f"Ollama: {res['error']}"
+                    error_detail = f"AI-MED: {res['error']}"
             except:
-                error_detail = f"Ollama: {e}"
+                error_detail = f"AI-MED: {e}"
 
         raise HTTPException(
             status_code=r.status_code if r else 500,
