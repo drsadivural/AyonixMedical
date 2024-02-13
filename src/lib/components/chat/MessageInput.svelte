@@ -903,7 +903,7 @@
 				</form>
 
 				<div class="mt-1.5 text-xs text-gray-500 text-center">
-					AI-MED can make mistakes or act unusual. Results must be verified by Healthcare professional.
+					Ayonix AI-MED can make mistakes in Medical diagnostics. Outcomes must be confirmed by a healthcare professional.
 				</div>
 			</div>
 		</div>
