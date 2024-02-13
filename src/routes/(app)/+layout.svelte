@@ -213,13 +213,12 @@
 					<div class="m-auto pb-44 flex flex-col justify-center">
 						<div class="max-w-md">
 							<div class="text-center dark:text-white text-2xl font-medium z-50">
-								Account Activation Pending<br /> Contact Admin for WebUI Access
+								Account Activation Pending<br /> Contact aimed@ayonix.com for access permission
 							</div>
 
 							<div class=" mt-4 text-center text-sm dark:text-gray-200 w-full">
-								Your account status is currently pending activation. To access the WebUI, please
-								reach out to the administrator. Admins can manage user statuses from the Admin
-								Panel.
+								Your account status is currently pending activation. To access AI-MED, please
+								reach out to Ayonix representative for account activation.
 							</div>
 
 							<div class=" mt-6 mx-auto relative group w-fit">
@@ -256,22 +255,22 @@
 							</div>
 
 							<div class=" mt-4 text-center text-sm dark:text-gray-200 w-full">
-								Oops! It seems like your Ollama needs a little attention. <br
+								Oops! It seems like your AI-MED needs a little attention. <br
 									class=" hidden sm:flex"
 								/>We've detected either a connection hiccup or observed that you're using an older
-								version. Ensure you're on the latest Ollama version
+								version. Ensure you're on the latest AI-MED version
 								<br class=" hidden sm:flex" />(version
 								<span class=" dark:text-white font-medium">{REQUIRED_OLLAMA_VERSION} or higher</span
-								>) or check your connection.
+								>) or check your server connection.
 
 								<div class="mt-1 text-sm">
-									Trouble accessing Ollama?
+									Trouble accessing AI-MED?
 									<a
 										class=" text-black dark:text-white font-semibold underline"
-										href="https://github.com/ollama-webui/ollama-webui#troubleshooting"
+										href="https://ayonix.com"
 										target="_blank"
 									>
-										Click here for help.
+										Click here for support.
 									</a>
 								</div>
 							</div>
