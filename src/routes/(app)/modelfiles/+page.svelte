@@ -35,9 +35,9 @@
 	};
 
 	const shareModelfile = async (modelfile) => {
-		toast.success('Redirecting you to OllamaHub');
+		toast.success('Redirecting you to Ayonix AI-MED Cloud');
 
-		const url = 'https://ollamahub.com';
+		const url = 'http://gpt.ayonix.com';
 
 		const tab = await window.open(`${url}/modelfiles/create`, '_blank');
 		window.addEventListener(
@@ -95,7 +95,7 @@
 
 				<div class=" self-center">
 					<div class=" font-bold">Create a modelfile</div>
-					<div class=" text-sm">Customize Ollama models for a specific purpose</div>
+					<div class=" text-sm">Customize AI-MED models for a specific diagnostics</div>
 				</div>
 			</a>
 
@@ -348,11 +348,11 @@
 			</div>
 
 			<div class=" my-16">
-				<div class=" text-2xl font-semibold mb-6">Made by OllamaHub Community</div>
+				<div class=" text-2xl font-semibold mb-6">Made by Ayonix AI Center</div>
 
 				<a
 					class=" flex space-x-4 cursor-pointer w-full mb-3"
-					href="https://ollamahub.com/"
+					href="http://gtp.ayonix.com/"
 					target="_blank"
 				>
 					<div class=" self-center w-10">
@@ -375,8 +375,8 @@
 					</div>
 
 					<div class=" self-center">
-						<div class=" font-bold">Discover a modelfile</div>
-						<div class=" text-sm">Discover, download, and explore Ollama Modelfiles</div>
+						<div class=" font-bold">Discover a model file</div>
+						<div class=" text-sm">Download, and explore AI-MED LLM Models</div>
 					</div>
 				</a>
 			</div>
