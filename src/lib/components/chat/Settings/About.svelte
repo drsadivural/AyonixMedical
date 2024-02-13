@@ -44,7 +44,7 @@
 				/>
 			</a>
 
-			<a href="https://au.linkedin.com/company/ayonix-inc" target="_blank">
+			<a href="https://au.linkedin.com/company/ayonix-inc." target="_blank">
 				<img
 					alt="Ayonix Linkedin"
 					src="https://au.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
@@ -55,7 +55,7 @@
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 			Created by <a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
-				href="https://au.linkedin.com/drsadivural"
+				href="https://au.linkedin.com/in/drsadivural"
 				target="_blank">DR SADI VURAL</a
 			>
 		</div>
