@@ -59,7 +59,7 @@
 				} else {
 					toast.success(`Model '${modelName}' has been successfully downloaded.`);
 
-					const notification = new Notification(`Ollama`, {
+					const notification = new Notification(`AI-MED`, {
 						body: `Model '${modelName}' has been successfully downloaded.`,
 						icon: '/favicon.png'
 					});
@@ -291,12 +291,12 @@
 <div class="flex flex-col h-full justify-between text-sm">
 	<div class=" space-y-3 pr-1.5 overflow-y-scroll h-80">
 		<div>
-			<div class=" mb-2.5 text-sm font-medium">Pull a model from Ollama.ai</div>
+			<div class=" mb-2.5 text-sm font-medium">Pull a model from Ayonix LLM Models</div>
 			<div class="flex w-full">
 				<div class="flex-1 mr-2">
 					<input
 						class="w-full rounded py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-800 outline-none"
-						placeholder="Enter model tag (e.g. mistral:7b)"
+						placeholder="Enter model tag (e.g. Ayonixpathology-70D)"
 						bind:value={modelTag}
 					/>
 				</div>
@@ -354,7 +354,7 @@
 			<div class="mt-2 mb-1 text-xs text-gray-400 dark:text-gray-500">
 				To access the available model names for downloading, <a
 					class=" text-gray-500 dark:text-gray-300 font-medium"
-					href="https://ollama.ai/library"
+					href="https://ayonix.com/download/AI-MED/llm-models"
 					target="_blank">click here.</a
 				>
 			</div>
@@ -433,8 +433,8 @@
 				<div class="  text-sm font-medium">
 					Upload a GGUF model <a
 						class=" text-xs font-medium text-gray-500 underline"
-						href="https://github.com/jmorganca/ollama/blob/main/README.md#import-from-gguf"
-						target="_blank">(Experimental)</a
+						href="https://ayonix.com/download/AI-MED/gguf-models"
+						target="_blank">(Go to Models</a
 					>
 				</div>
 
@@ -497,7 +497,7 @@
 								type="url"
 								required
 								bind:value={modelFileUrl}
-								placeholder="Type HuggingFace Resolve (Download) URL"
+								placeholder="Type Ayonix GGUF Model URL"
 							/>
 						</div>
 					{/if}
@@ -569,7 +569,7 @@
 			<div class=" mt-1 text-xs text-gray-400 dark:text-gray-500">
 				To access the GGUF models available for downloading, <a
 					class=" text-gray-500 dark:text-gray-300 font-medium"
-					href="https://huggingface.co/models?search=gguf"
+					href="https://ayonix.com/download/AI-MED/gguf-models"
 					target="_blank">click here.</a
 				>
 			</div>
