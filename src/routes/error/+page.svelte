@@ -19,22 +19,22 @@
 		<div class="absolute rounded-xl w-full h-full backdrop-blur flex justify-center">
 			<div class="m-auto pb-44 flex flex-col justify-center">
 				<div class="max-w-md">
-					<div class="text-center text-2xl font-medium z-50">Ollama WebUI Backend Required</div>
+					<div class="text-center text-2xl font-medium z-50">Ayonix AI-MED Backend Required</div>
 
 					<div class=" mt-4 text-center text-sm w-full">
-						Oops! You're using an unsupported method (frontend only). Please serve the WebUI from
+						Oops! You're using an unsupported method (frontend only). Please serve the AI-MED from
 						the backend.
 
 						<br class=" " />
 						<br class=" " />
 						<a
 							class=" font-semibold underline"
-							href="https://github.com/ollama-webui/ollama-webui#how-to-install-"
+							href="http://gpt.ayonix.com"
 							target="_blank">See readme.md for instructions</a
 						>
 						or
-						<a class=" font-semibold underline" href="https://discord.gg/5rJgQTnV4s" target="_blank"
-							>join our Discord for help.</a
+						<a class=" font-semibold underline" href="http://gpt.ayonix.com" target="_blank"
+							>Go for help</a
 						>
 					</div>
 
