@@ -44,7 +44,7 @@ CACHE_DIR = f"{DATA_DIR}/cache"
 Path(CACHE_DIR).mkdir(parents=True, exist_ok=True)
 
 ####################################
-# OLLAMA_API_BASE_URL
+# AI-MED_API_BASE_URL
 ####################################
 
 OLLAMA_API_BASE_URL = os.environ.get(
