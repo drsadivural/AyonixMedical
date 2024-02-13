@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ollama-webui-deployment
-  namespace: ollama-namespace
+  name: Ayonix AI-MED-deployment
+  namespace: AI-MED-namespace
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: ollama-webui
+      app: Ayonix-AI-MED
   template:
     metadata:
       labels:
-        app: ollama-webui
+        app: Ayonix-AI-MED
     spec:
       containers:
-      - name: ollama-webui
-        image: ghcr.io/ollama-webui/ollama-webui:main
+      - name: Ayonix AI-MED
+        image: https://raw.githubusercontent.com/drsadivural/AyonixMedical/main
         ports:
         - containerPort: 8080
         resources:
@@ -23,6 +23,6 @@ spec:
             cpu: "500m"
             memory: "500Mi"
         env:
-        - name: OLLAMA_API_BASE_URL
-          value: "http://ollama-service.ollama-namespace.svc.cluster.local:11434/api"
+        - name: AI-MED_API_BASE_URL
+          value: "http://ai-med-service.ai-med-namespace.svc.cluster.local:11434/api"
         tty: true
