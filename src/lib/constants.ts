@@ -1,6 +1,6 @@
 import { dev } from '$app/environment';
 
-export const WEBUI_NAME = 'Ayonix Medical Diagnostics';
+export const WEBUI_NAME = 'Ayonix AI-MED Diagnostics';
 export const WEBUI_BASE_URL = dev ? `http://${location.hostname}:8080` : ``;
 
 export const WEBUI_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1`;
@@ -9,7 +9,7 @@ export const OPENAI_API_BASE_URL = `${WEBUI_BASE_URL}/openai/api`;
 export const RAG_API_BASE_URL = `${WEBUI_BASE_URL}/rag/api/v1`;
 export const AUDIO_API_BASE_URL = `${WEBUI_BASE_URL}/audio/api/v1`;
 
-export const WEB_UI_VERSION = 'v1.0.0-alpha-static';
+export const WEB_UI_VERSION = 'v1.0.0';
 
 export const REQUIRED_OLLAMA_VERSION = '0.1.16';
 
