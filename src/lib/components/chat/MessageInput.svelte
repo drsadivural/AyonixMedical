@@ -903,7 +903,7 @@
 				</form>
 
 				<div class="mt-1.5 text-xs text-gray-500 text-center">
-					LLMs can make mistakes. Verify important information.
+					AI-MED can make mistakes or act unusual. Results must be verified by Healthcare professional.
 				</div>
 			</div>
 		</div>
