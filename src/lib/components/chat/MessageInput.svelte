@@ -659,7 +659,7 @@
 								? chatInputPlaceholder
 								: isRecording
 								? 'Listening...'
-								: 'Send a message'}
+								: 'Tell me about your patient'}
 							bind:value={prompt}
 							on:keypress={(e) => {
 								if (e.keyCode == 13 && !e.shiftKey) {
