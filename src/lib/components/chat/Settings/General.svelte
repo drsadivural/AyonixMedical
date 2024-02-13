@@ -67,7 +67,7 @@
 
 <div class="flex flex-col space-y-3">
 	<div>
-		<div class=" mb-1 text-sm font-medium">WebUI Settings</div>
+		<div class=" mb-1 text-sm font-medium">AI-MED Settings</div>
 
 		<div class=" py-0.5 flex w-full justify-between">
 			<div class=" self-center text-xs font-medium">Theme</div>
@@ -154,7 +154,7 @@
 	{#if $user.role === 'admin'}
 		<hr class=" dark:border-gray-700" />
 		<div>
-			<div class=" mb-2.5 text-sm font-medium">Ollama API URL</div>
+			<div class=" mb-2.5 text-sm font-medium">AI-MED API URL</div>
 			<div class="flex w-full">
 				<div class="flex-1 mr-2">
 					<input
