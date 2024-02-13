@@ -17,7 +17,7 @@
 				show = false;
 			}}
 		>
-			Share to OllamaHub
+			Share with Ayonix
 		</button>
 
 		<div class="flex justify-center space-x-1 mt-1.5">
