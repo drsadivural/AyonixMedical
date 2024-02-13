@@ -47,16 +47,16 @@
 			<a href="https://au.linkedin.com/company/ayonix-inc." target="_blank">
 				<img
 					alt="Ayonix Linkedin"
-					src="https://au.linkedin.com/?trk=guest_homepage-basic_nav-header-logo"
+					src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
 				/>
 			</a>
 		</div>
 
 		<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
-			Created by <a
+			Developed by <a
 				class=" text-gray-500 dark:text-gray-300 font-medium"
-				href="https://au.linkedin.com/in/drsadivural"
-				target="_blank">DR SADI VURAL</a
+				href="https://ayonix.com"
+				target="_blank">Ayonix Pty Ltd, AI Center, VIC/Australia</a
 			>
 		</div>
 	</div>
