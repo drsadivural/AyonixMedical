@@ -188,7 +188,7 @@ async def proxy(path: str, request: Request, user=Depends(get_verified_user)):
             return response_data
     except Exception as e:
         print(e)
-        error_detail = "Ollama WebUI: Server Connection Error"
+        error_detail = "AI-MED Web I/F: Server Connection Error"
         if r is not None:
             try:
                 res = r.json()
