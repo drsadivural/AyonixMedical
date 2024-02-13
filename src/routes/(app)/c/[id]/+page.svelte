@@ -154,7 +154,7 @@
 	};
 
 	//////////////////////////
-	// Ollama functions
+	// AI-MED functions
 	//////////////////////////
 
 	const submitPrompt = async (userPrompt, _user = null) => {
@@ -207,7 +207,7 @@
 				if ($settings.saveChatHistory ?? true) {
 					chat = await createNewChat(localStorage.token, {
 						id: $chatId,
-						title: 'New Chat',
+						title: 'New Diagnosis',
 						models: selectedModels,
 						system: $settings.system ?? undefined,
 						options: {
@@ -428,7 +428,7 @@
 									if (responseMessage.content == '') {
 										responseMessage.error = true;
 										responseMessage.content =
-											'Oops! No text generated from Ollama, Please try again.';
+											'Oops! No text generated from AI-MED, Please try again.';
 									}
 
 									responseMessage.context = data.context ?? null;
@@ -451,7 +451,7 @@
 														selectedModelfile.title.charAt(0).toUpperCase() +
 														selectedModelfile.title.slice(1)
 												  }`
-												: `Ollama - ${model}`,
+												: `AI-MED - ${model}`,
 											{
 												body: responseMessage.content,
 												icon: selectedModelfile?.imageUrl ?? '/favicon.png'
@@ -505,12 +505,12 @@
 					responseMessage.content = error.error;
 				}
 			} else {
-				toast.error(`Uh-oh! There was an issue connecting to Ollama.`);
-				responseMessage.content = `Uh-oh! There was an issue connecting to Ollama.`;
+				toast.error(`Uh-oh! There was an issue connecting to AI-MED.`);
+				responseMessage.content = `Uh-oh! There was an issue connecting to AI-MED.`;
 			}
 
 			responseMessage.error = true;
-			responseMessage.content = `Uh-oh! There was an issue connecting to Ollama.`;
+			responseMessage.content = `Uh-oh! There was an issue connecting to AI-MED.`;
 			responseMessage.done = true;
 			messages = messages;
 		}
