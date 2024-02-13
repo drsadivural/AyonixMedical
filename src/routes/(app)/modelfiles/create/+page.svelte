@@ -105,7 +105,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 
 		if (Object.keys(categories).filter((category) => categories[category]).length == 0) {
 			toast.error(
-				'Uh-oh! It looks like you missed selecting a category. Please choose one to complete your modelfile.'
+				'Uh-oh! It looks like you missed selecting a category. Please choose one to complete your LLM Model file.'
 			);
 			loading = false;
 			success = false;
@@ -117,7 +117,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 			(await getModelfileByTagName(localStorage.token, tagName).catch(() => false))
 		) {
 			toast.error(
-				`Uh-oh! It looks like you already have a model named '${tagName}'. Please choose a different name to complete your modelfile.`
+				`Uh-oh! It looks like you already have a model named '${tagName}'. Please choose a different name to complete your model file.`
 			);
 			loading = false;
 			success = false;
@@ -212,7 +212,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 	onMount(() => {
 		window.addEventListener('message', async (event) => {
 			if (
-				!['https://ollamahub.com', 'https://www.ollamahub.com', 'http://localhost:5173'].includes(
+				!['http://gpt.ayonix.com', 'http://www.gpt.ayonix.com', 'http://localhost:5173'].includes(
 					event.origin
 				)
 			)
@@ -456,7 +456,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 							<div>
 								<textarea
 									class="px-3 py-1.5 text-sm w-full bg-transparent border dark:border-gray-600 outline-none rounded-lg"
-									placeholder={`FROM llama2\nPARAMETER temperature 1\nSYSTEM """\nYou are Mario from Super Mario Bros, acting as an assistant.\n"""`}
+									placeholder={`FROM llama2\nPARAMETER temperature 1\nSYSTEM """\nYou are an expert doctor in neurology.\n"""`}
 									rows="6"
 									bind:value={content}
 									required
@@ -474,10 +474,10 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 								or
 								<a
 									class=" text-gray-500 dark:text-gray-300 font-medium"
-									href="https://ollamahub.com"
+									href="http://gpt.ayonix.com"
 									target="_blank"
 								>
-									Click here to check other modelfiles.
+									Click here to check other LLM Model files.
 								</a>
 							</div>
 						</div>
@@ -488,7 +488,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 							<div>
 								<input
 									class="px-3 py-1.5 text-sm w-full bg-transparent border dark:border-gray-600 outline-none rounded-lg"
-									placeholder="Write a modelfile base model name (e.g. llama2, mistral)"
+									placeholder="Write a modelfile base model name (e.g. Ayonixmedical, Ayonixcardio)"
 									bind:value={model}
 									required
 								/>
@@ -497,7 +497,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 							<div class="mt-1 text-xs text-gray-400 dark:text-gray-500">
 								To access the available model names for downloading, <a
 									class=" text-gray-500 dark:text-gray-300 font-medium"
-									href="https://ollama.ai/library"
+									href="https://ayonix.com/download/AI-MED/LLM Models"
 									target="_blank">click here.</a
 								>
 							</div>
@@ -509,7 +509,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 							<div>
 								<textarea
 									class="px-3 py-1.5 text-sm w-full bg-transparent border dark:border-gray-600 outline-none rounded-lg -mb-1"
-									placeholder={`Write your modelfile system prompt content here\ne.g.) You are Mario from Super Mario Bros, acting as an assistant.`}
+									placeholder={`Write your modelfile system prompt content here\ne.g.) You are an expert doctor in Neurology.`}
 									rows="4"
 									bind:value={system}
 								/>
@@ -517,7 +517,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 						</div>
 
 						<div class="flex w-full justify-between">
-							<div class=" self-center text-sm font-semibold">Modelfile Advanced Settings</div>
+							<div class=" self-center text-sm font-semibold">Model file Advanced Settings</div>
 
 							<button
 								class="p-1 px-3 text-xs flex rounded transition"
