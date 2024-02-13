@@ -1,5 +1,5 @@
 # Security Policy
-Our primary goal is to ensure the protection and confidentiality of sensitive data stored by users on ollama-webui.
+Our primary goal is to ensure the protection and confidentiality of sensitive data stored by users on AYONIX AI-MED.
 ## Supported Versions
 
 
