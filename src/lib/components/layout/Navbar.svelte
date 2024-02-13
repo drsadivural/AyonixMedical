@@ -27,8 +27,8 @@
 		const chat = (await getChatById(localStorage.token, $chatId)).chat;
 		console.log('share', chat);
 
-		toast.success('Redirecting you to OllamaHub');
-		const url = 'https://ollamahub.com';
+		toast.success('Redirecting you to AI-MED Cloud');
+		const url = 'http://gpt.ayonix.com';
 		// const url = 'http://localhost:5173';
 
 		const tab = await window.open(`${url}/chats/upload`, '_blank');
