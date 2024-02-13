@@ -188,10 +188,10 @@
 				Trouble accessing Ollama?
 				<a
 					class=" text-gray-300 font-medium"
-					href="https://github.com/ollama-webui/ollama-webui#troubleshooting"
+					href="https://ayonix.com"
 					target="_blank"
 				>
-					Click here for help.
+					Click here for support.
 				</a>
 			</div>
 		</div>
