@@ -320,7 +320,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 				}}
 			/>
 
-			<div class=" text-2xl font-semibold mb-6">My Modelfiles</div>
+			<div class=" text-2xl font-semibold mb-6">Medical Modelfiles</div>
 
 			<button
 				class="flex space-x-1"
@@ -394,7 +394,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 						<div>
 							<input
 								class="px-3 py-1.5 text-sm w-full bg-transparent border dark:border-gray-600 outline-none rounded-lg"
-								placeholder="Name your modelfile"
+								placeholder="Name your medical modelfile"
 								bind:value={title}
 								required
 							/>
@@ -421,7 +421,7 @@ SYSTEM """${system}"""`.replace(/^\s*\n/gm, '');
 					<div>
 						<input
 							class="px-3 py-1.5 text-sm w-full bg-transparent border dark:border-gray-600 outline-none rounded-lg"
-							placeholder="Add a short description about what this modelfile does"
+							placeholder="Add a short description about what this modelfile does(i.e. pathology, osteopathy"
 							bind:value={desc}
 							required
 						/>
