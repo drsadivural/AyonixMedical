@@ -272,7 +272,7 @@
 			</div>
 
 			<div class=" my-16">
-				<div class=" text-2xl font-semibold mb-6">Made by Ayonix AI-MED Community</div>
+				<div class=" text-2xl font-semibold mb-6">Made by Ayonix AI-MED team</div>
 
 				<a
 					class=" flex space-x-4 cursor-pointer w-full mb-3"
@@ -300,7 +300,7 @@
 
 					<div class=" self-center">
 						<div class=" font-bold">Discover a prompt</div>
-						<div class=" text-sm">Discover, download, and explore custom Prompts</div>
+						<div class=" text-sm">Download and use your customized Prompts</div>
 					</div>
 				</a>
 			</div>
