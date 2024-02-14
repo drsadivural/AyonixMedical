@@ -40,7 +40,7 @@
 								class=" w-20 mb-2 {models.length === 1
 									? ''
 									: 'border-[5px] border-white dark:border-gray-900'}  rounded-full"
-								alt="ollama"
+								alt="Ayonix AI-MED"
 								draggable="false"
 							/>
 						{/if}
@@ -58,13 +58,13 @@
 				</div>
 				{#if modelfile.user}
 					<div class="mt-0.5 text-sm font-normal text-gray-500 dark:text-gray-500">
-						By <a href="https://ollamahub.com/m/{modelfile.user.username}"
+						By <a href="http://gpt.ayonix.com/m/{modelfile.user.username}"
 							>{modelfile.user.name ? modelfile.user.name : `@${modelfile.user.username}`}</a
 						>
 					</div>
 				{/if}
 			{:else}
-				How can I help you today?
+				Hi Dr. How can I help you today?
 			{/if}
 		</div>
 	</div>
