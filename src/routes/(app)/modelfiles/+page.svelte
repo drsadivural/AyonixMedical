@@ -376,7 +376,7 @@
 
 					<div class=" self-center">
 						<div class=" font-bold">Discover a model file</div>
-						<div class=" text-sm">Download, and explore AI-MED LLM Models</div>
+						<div class=" text-sm">Download various AI-MED Models for Patient diagnostics.</div>
 					</div>
 				</a>
 			</div>
