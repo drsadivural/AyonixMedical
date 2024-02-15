@@ -174,7 +174,7 @@
 								/>
 							</svg>
 						</div>
-						<div class=" self-center">External</div>
+						<div class=" self-center">Integration</div>
 					</button>
 				{/if}
 
