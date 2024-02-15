@@ -9,6 +9,7 @@
 	// External
 	let OPENAI_API_KEY = '';
 	let OPENAI_API_BASE_URL = '';
+        let MAYO_API_BASE_URL = '';
 
 	const updateOpenAIHandler = async () => {
 		OPENAI_API_BASE_URL = await updateOpenAIUrl(localStorage.token, OPENAI_API_BASE_URL);
@@ -39,12 +40,12 @@
 >
 	<div class=" space-y-3">
 		<div>
-			<div class=" mb-2.5 text-sm font-medium">OpenAI API Key</div>
+			<div class=" mb-2.5 text-sm font-medium">MAYO API Key</div>
 			<div class="flex w-full">
 				<div class="flex-1">
 					<input
 						class="w-full rounded py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-800 outline-none"
-						placeholder="Enter OpenAI API Key"
+						placeholder="Enter MAYO API Key"
 						bind:value={OPENAI_API_KEY}
 						autocomplete="off"
 					/>
@@ -63,8 +64,8 @@
 				<div class="flex-1">
 					<input
 						class="w-full rounded py-2 px-4 text-sm dark:text-gray-300 dark:bg-gray-800 outline-none"
-						placeholder="Enter MAYO API Key"
-						bind:value={OPENAI_API_BASE_URL}
+						placeholder="Enter MAYO Base API URL"
+						bind:value={MAYO_API_BASE_URL}
 						autocomplete="off"
 					/>
 				</div>
